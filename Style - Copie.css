@@ -1,0 +1,130 @@
+body {
+    background-color:#1d1d1d;
+    color: #cacaca;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+nav{
+    margin-left: 60%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 37px;
+    color: rgb(157, 144, 255) ;
+}
+
+a:hover{
+    text-decoration: solid;
+    font-size: 19px;
+}
+a:visited{
+    color: rgb(98, 58, 114);
+}
+
+
+.container { /*mtaa home */
+    display: flex;
+    align-items: center; /* Vertically aligns items */
+}
+
+img, i{
+    max-width: 200px; /* Adjust the width of the image */
+    margin-right: 20px; /* Add some space between the image and the text */
+    border-radius: 10px; /* Optional: give the image rounded corners */
+}
+
+.longp {
+    margin: 0;
+    background-color: #212121;
+    color: #cacaca;
+    padding: 40px;
+    border-radius: 20px / 20px;
+    border: 2px solid #cacaca61;
+}
+#icon {
+    color: #cacaca;
+}
+
+
+td, th {
+    padding: 10px;
+    text-align: left; /* Align text in the cells */
+}
+
+tr:hover {
+    background-color: #666569;
+}
+
+tr:nth-child(even) {
+    background-color: #282828;
+}
+
+tr:nth-child(odd) {
+    background-color: #222222;
+}
+
+button {
+    background: linear-gradient(90deg, #3f2a8c, #6f2e97); /* Gradient background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s; /* Smooth transition on hover */
+    
+}
+
+button:hover {
+    background: linear-gradient(90deg, #6f2e97, #3f2a8c); /* Reverse gradient on hover */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    /*height: 100vh;  Full viewport height */
+}
+
+input[type="text"],input[type="number"],textarea, input[type="email"],input[type="date"],select{
+    width: auto;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid  #cacaca61;
+    border-radius: 4px;
+    background-color: #cacaca;
+    font-size: 16px;
+    color: #6d6d6d;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
+table{
+    border-radius: 15px;
+}
+
+label{
+    font-weight: bold;
+}
+h1{
+    font-size: 30px;
+}
+footer {
+    width: 100%;              /* Full width of the page */
+    height: auto;             /* Height of the footer */
+    background-color: #333;    /* Background color (dark gray in this case) */
+    color: white;              /* Text color */
+    text-align: center;        /* Center text horizontally */
+    /* line-height: 100px;        / Vertically centers the text / */
+    bottom: 0;                 /* Align to the bottom */
+    padding: 1%;
+}
+  
